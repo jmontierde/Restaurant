@@ -1,0 +1,215 @@
+html {
+      box-sizing: border-box;
+      margin: 0;
+}
+
+body{
+      background-image: url(./restaurant-bg.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+      font-family: 'Lato', sans-serif;
+     
+      /* width: 100%; */
+    
+}
+
+/* img {
+      max-width: 100%;
+} */
+
+.restaurant {
+      margin: 3.5rem 3rem 1rem 3rem;
+      
+}
+
+.restaurant-menu {
+    
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 1rem;
+      padding: 0;
+      
+   
+}
+
+.restaurant-menu li {
+      list-style: none;
+      background-color: #ffafcc;
+      padding: 1rem;
+      text-align: center;
+      font-weight: 800;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      /* margin: 0; */
+      
+}
+.restaurant-menu li a {
+      text-decoration: none;
+}
+
+/* Pizza Hub */
+
+.pizza {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1.2rem;
+      max-height: 100%;
+      /* padding-left: 40px; */
+
+}
+
+.pizza-name{
+      background-image: url(./bgpizza.jpg);      
+      background-position: bottom left;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 400px;
+      grid-column: 1/3;
+      grid-row: 1/3;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+     
+}
+
+.ph{
+      font-size: 2rem;
+      padding: .5rem;
+}
+.pg{
+      padding: .5rem;
+      font-weight: 800;
+}
+.ph, .pg {
+      background-color: #ffafcc;    
+}
+
+
+.pricing {
+      background-color: #ffafcc;
+      text-align: center;
+      padding-top: 60px;
+}
+.pricing, .price {
+      font-weight: 500;
+}
+.pricing p {
+      position: relative;
+      bottom: 10px;
+      font-weight: 800;
+}
+
+
+/* ICONS  */
+#section-icons{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 1rem;
+      text-align: center;
+      /* padding-top: .2rem; */
+      margin: 0 3rem 0 3rem;
+    
+      
+}
+.icons-menu{
+      background-color: #ffffff;  
+      padding: 1.5rem 1rem 1rem 1rem;
+}
+.icons-menu p{
+      color: #666565;
+      text-shadow:#9e9797;
+      font-weight: bolder;
+      font-size: .9rem;
+}
+
+.icons-menu h4{
+     margin: 0;
+}
+
+.icons{
+      font-size: 3rem;
+  
+     
+}
+
+.pizza-features{
+      grid-column: 1/5;
+      /* columns: 100%; */
+      background-color:#e67272;
+      /* display: flex; */
+      height: 300px;
+      width: 100%;
+      display: flex;
+      /* columns: 1/4; */
+
+     
+      
+}
+.pizza-features img {
+      padding: 3rem 0 0 3rem;
+      height: 40vh;
+      /* width: 100%; */
+   
+}
+.btn {
+      position: absolute;
+}
+      
+.feature-description {
+      overflow-wrap: break-word;
+      text-align: center;
+      align-self: center;
+      text-align: start;
+      /* justify-content: center; */
+   
+}
+
+.pizza-features p{
+      font-weight: bold;
+}
+
+.btn-feature{
+      background-color: #ffafcc;
+      border: none;
+      padding: 10px 40px 10px 10px;
+      font-weight: bold;
+}
+
+.section-instantgrams h2{
+
+      
+    padding: 70px 30px 0 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+   
+}
+
+.instagrams-pics {
+   
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      
+}
+
+.img-instagram {
+      width: 100%;
+      height: 40vh;
+      object-fit: cover;
+
+      /* margin-top: 0; */
+}
+
+/* .section-instantgrams h2 {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      grid-gap: 20px;
+      align-items: center;
+    } */
